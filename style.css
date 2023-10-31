@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  /* Ajoute un espacement en bas */
+}
+
+.btn-primary:hover {
+  background-color: black;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+ul.menu {
+  padding-inline-start: initial;
+}
+
+ul.social-icon {
+  padding-inline-start: initial;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+
